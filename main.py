@@ -7,13 +7,12 @@ from aiogram import Bot, Dispatcher
 
 ALOWED_UPDATES = ["message"]
 
-token = '6537139791:AAG-dkwUAvH3HhpTlMEAQQ9KMS2lV3ErTzY'
+token = "6537139791:AAG-dkwUAvH3HhpTlMEAQQ9KMS2lV3ErTzY"
 
 bot = Bot(token=token)
 dp = Dispatcher()
 
 dp.include_router(tg_bot)
-
 
 
 async def main():
