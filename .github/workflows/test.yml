@@ -2,7 +2,7 @@ name: test
 on: workflow_dispatch
 jobs:
   print:
-    runs-on: ubuntu:22.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Run script
         run: echo Hello, world
