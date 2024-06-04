@@ -9,4 +9,4 @@ tg_bot = Router()
 
 @tg_bot.message(Command("start"))
 async def cmd_start(message: types.Message):
-    await message.answer("Privet!")
+    await message.answer("Hey!")
