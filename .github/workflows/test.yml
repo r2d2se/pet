@@ -1,6 +1,5 @@
 name: test
-on:
-  push:
+on: push
 jobs:
   print:
     runs-on: ubuntu-22.04
