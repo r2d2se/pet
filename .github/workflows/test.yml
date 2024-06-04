@@ -1,5 +1,9 @@
 name: test
-on: [push]
+on:
+  push:
+    branches:
+      - '!main'
+
 jobs:
   print:
     runs-on: ubuntu-22.04
