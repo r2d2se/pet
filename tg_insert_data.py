@@ -29,4 +29,4 @@ async def cmd_start(message: types.Message):
 
 @tg_bot.message(F.text.lower() == "создать напоминание")
 async def create_notification(message: types.Message):
-    await message.answer("Проверка actions 4", reply_markup=start_keyboard)
+    await message.answer("Проверка actions 5", reply_markup=start_keyboard)
