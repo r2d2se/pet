@@ -1,8 +1,5 @@
 name: test
-on: 
-  push:
-    branches: 
-      - feature_create_notification
+on: [push]
 jobs:
   print:
     runs-on: ubuntu-22.04
